@@ -1,5 +1,6 @@
+class_name Menu
 extends Control
-
+signal clicked_play
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -19,4 +20,8 @@ func _on_optionsbutton_pressed():
 
 
 func _on_quitbutton_pressed():
-	get_tree().quit()
+	get_tree().quit() # Exit game if quit is pressed
+
+
+func _on_startbutton_pressed():
+	emit_signal("clicked_play")

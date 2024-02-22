@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cv5m1gsorv4hc"]
+
+[ext_resource type="Script" path="res://gameman.gd" id="1_eyjv7"]
+
+[node name="gameman" type="Node"]
+script = ExtResource("1_eyjv7")
