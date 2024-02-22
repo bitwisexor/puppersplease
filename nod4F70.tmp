@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://cu223pwrg1m1k"]
+
+[ext_resource type="Texture2D" uid="uid://ca0wv7wweif0o" path="res://bomb001.bmp" id="1_ommxv"]
+[ext_resource type="Script" path="res://bomb.gd" id="2_tidq6"]
+[ext_resource type="AudioStream" uid="uid://7ok8s6ba2352" path="res://explosion.ogg" id="3_0fesc"]
+[ext_resource type="AudioStream" uid="uid://d0l3w8ar48x65" path="res://burning.wav" id="4_dw84w"]
+[ext_resource type="Script" path="res://burning_sound.gd" id="5_loyt3"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Bomb" type="Sprite2D" parent="."]
+position = Vector2(1.19209e-07, 0)
+scale = Vector2(0.429687, 0.445312)
+texture = ExtResource("1_ommxv")
+script = ExtResource("2_tidq6")
+
+[node name="explosion_sound" type="AudioStreamPlayer2D" parent="Bomb"]
+stream = ExtResource("3_0fesc")
+
+[node name="burning_sound" type="AudioStreamPlayer2D" parent="Bomb"]
+stream = ExtResource("4_dw84w")
+script = ExtResource("5_loyt3")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+
+[connection signal="finished" from="Bomb/explosion_sound" to="Bomb/burning_sound" method="_on_explosion_sound_finished"]
+[connection signal="timeout" from="Timer" to="Bomb" method="_on_timer_timeout"]
