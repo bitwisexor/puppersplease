@@ -1,6 +1,10 @@
-[gd_scene load_steps=65 format=3 uid="uid://cwou75rs55c1v"]
+[gd_scene load_steps=69 format=3 uid="uid://cwou75rs55c1v"]
 
 [ext_resource type="Texture2D" uid="uid://bcbdocwl8onr2" path="res://foztitle.png" id="1_pcuog"]
+[ext_resource type="Script" path="res://menu.gd" id="1_qqp0k"]
+[ext_resource type="Script" path="res://Start.gd" id="3_s5nn2"]
+[ext_resource type="Script" path="res://Options.gd" id="4_5ttuc"]
+[ext_resource type="Script" path="res://Quit.gd" id="5_xm0q3"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_ct28r"]
 
@@ -442,6 +446,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_qqp0k")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
@@ -455,7 +460,7 @@ scale = Vector2(1.06667, 1.00167)
 sprite_frames = SubResource("SpriteFrames_82n8l")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.994432
+frame_progress = 0.325389
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -471,11 +476,16 @@ grow_vertical = 0
 [node name="Start" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Start"
+script = ExtResource("3_s5nn2")
 
 [node name="Options" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Options"
+script = ExtResource("4_5ttuc")
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Quit"
+script = ExtResource("5_xm0q3")
+
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
