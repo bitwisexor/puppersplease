@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcbdocwl8onr2"
-path="res://.godot/imported/foztitle.png-faf32ad2476718ee4f82ba700201e628.ctex"
+uid="uid://cxaqmwatgujs4"
+path="res://.godot/imported/Dog7-ezgif.com-gif-to-sprite-converter.png-4c224a1ff8375a544d5ca18472d13ef0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://foztitle.png"
-dest_files=["res://.godot/imported/foztitle.png-faf32ad2476718ee4f82ba700201e628.ctex"]
+source_file="res://fozdogsfixed/Dog7-ezgif.com-gif-to-sprite-converter.png"
+dest_files=["res://.godot/imported/Dog7-ezgif.com-gif-to-sprite-converter.png-4c224a1ff8375a544d5ca18472d13ef0.ctex"]
 
 [params]
 

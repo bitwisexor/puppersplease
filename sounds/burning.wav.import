@@ -2,13 +2,13 @@
 
 importer="wav"
 type="AudioStreamWAV"
-uid="uid://d0l3w8ar48x65"
-path="res://.godot/imported/burning.wav-e83e02bf39763bc8e0e6ca3ee9518b81.sample"
+uid="uid://bpleddd7argjy"
+path="res://.godot/imported/burning.wav-85bf41a9ec5160ffdd179f55c4e25a8b.sample"
 
 [deps]
 
-source_file="res://burning.wav"
-dest_files=["res://.godot/imported/burning.wav-e83e02bf39763bc8e0e6ca3ee9518b81.sample"]
+source_file="res://sounds/burning.wav"
+dest_files=["res://.godot/imported/burning.wav-85bf41a9ec5160ffdd179f55c4e25a8b.sample"]
 
 [params]
 

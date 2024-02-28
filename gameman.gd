@@ -16,7 +16,7 @@ func load_scene_additively(scene_path: String):
 		print("Failed to load scene:", scene_path)
 
 func sendtext():
-	print("it's a chungus")
+	print("test 123")
 	
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -28,4 +28,8 @@ func _process(delta):
 	pass
 
 func clicked_play():
-	sendtext()
+	var menu_node = get_node("Menu")
+	
+	remove_child(menu_node)
+	menu_node.queue_free() # TODO: Find out if neccessary
+	var main: Main = load_scene_additively("res://main.tscn")

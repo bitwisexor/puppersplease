@@ -1,11 +1,11 @@
 [gd_scene load_steps=253 format=3 uid="uid://cwou75rs55c1v"]
 
-[ext_resource type="Texture2D" uid="uid://bcbdocwl8onr2" path="res://foztitle.png" id="1_pcuog"]
+[ext_resource type="Texture2D" uid="uid://8c1xbrl734eo" path="res://sprites/foztitle.png" id="1_pcuog"]
 [ext_resource type="Script" path="res://menu.gd" id="1_qqp0k"]
-[ext_resource type="Texture2D" uid="uid://bdqntyhi1ad26" path="res://quitimg.png" id="4_81uf4"]
-[ext_resource type="Texture2D" uid="uid://c7btar3j6avqp" path="res://startimg.png" id="5_yivvk"]
-[ext_resource type="Texture2D" uid="uid://cat1pagw05dvq" path="res://optionsimg.png" id="6_71ts1"]
-[ext_resource type="AudioStream" uid="uid://d0l3w8ar48x65" path="res://burning.wav" id="7_hawc2"]
+[ext_resource type="Texture2D" uid="uid://cm3bl5x8u0jfe" path="res://sprites/quitimg.png" id="4_81uf4"]
+[ext_resource type="Texture2D" uid="uid://c60v0ppks7j6l" path="res://sprites/startimg.png" id="5_yivvk"]
+[ext_resource type="Texture2D" uid="uid://b354ha46p8wip" path="res://sprites/optionsimg.png" id="6_71ts1"]
+[ext_resource type="AudioStream" uid="uid://bpleddd7argjy" path="res://sounds/burning.wav" id="7_hawc2"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_ct28r"]
 

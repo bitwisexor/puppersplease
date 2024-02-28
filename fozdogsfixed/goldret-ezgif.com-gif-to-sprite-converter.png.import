@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7btar3j6avqp"
-path="res://.godot/imported/startimg.png-96233467001b1461a94c2d1ce7b06b26.ctex"
+uid="uid://ckd6yq5rwr66s"
+path="res://.godot/imported/goldret-ezgif.com-gif-to-sprite-converter.png-36530a06a80512e38ba7f0a710ef1254.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://startimg.png"
-dest_files=["res://.godot/imported/startimg.png-96233467001b1461a94c2d1ce7b06b26.ctex"]
+source_file="res://fozdogsfixed/goldret-ezgif.com-gif-to-sprite-converter.png"
+dest_files=["res://.godot/imported/goldret-ezgif.com-gif-to-sprite-converter.png-36530a06a80512e38ba7f0a710ef1254.ctex"]
 
 [params]
 

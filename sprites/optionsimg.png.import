@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdqntyhi1ad26"
-path="res://.godot/imported/quitimg.png-83b532f9b66a2b84a0080c768e802225.ctex"
+uid="uid://b354ha46p8wip"
+path="res://.godot/imported/optionsimg.png-39a48abf25e8761175e531510d2921cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://quitimg.png"
-dest_files=["res://.godot/imported/quitimg.png-83b532f9b66a2b84a0080c768e802225.ctex"]
+source_file="res://sprites/optionsimg.png"
+dest_files=["res://.godot/imported/optionsimg.png-39a48abf25e8761175e531510d2921cf.ctex"]
 
 [params]
 
