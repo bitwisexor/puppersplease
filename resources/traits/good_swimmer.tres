@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TraitResource" load_steps=2 format=3 uid="uid://wivmh47rsnbv"]
+
+[ext_resource type="Script" path="res://src/TraitResource.gd" id="1_speg2"]
+
+[resource]
+script = ExtResource("1_speg2")
+name = "Good swimmer"
+description = "This dog is really good at swimming. Like a fish!"
+size = 0
+age = 0
+athletic = 2
+friendly = 0
+smart = 1
+needs = 0
+appearance = 0
+conflicting_traits = Array[Resource]([])

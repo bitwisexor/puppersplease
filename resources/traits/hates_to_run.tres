@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TraitResource" load_steps=2 format=3 uid="uid://ddsnc6jtxvp6l"]
+
+[ext_resource type="Script" path="res://src/TraitResource.gd" id="1_evgck"]
+
+[resource]
+script = ExtResource("1_evgck")
+name = "Hates to run"
+description = "This dog is LAZY! Jesus Christ get off the bloody couch!"
+size = 0
+age = 0
+athletic = -2
+friendly = 0
+smart = 0
+needs = -1
+appearance = -1
+conflicting_traits = PackedStringArray("likes_to_run")

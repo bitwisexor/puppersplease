@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjdnbj6chkc5"]
+
+[ext_resource type="Script" path="res://src/DogGenerator.gd" id="1_xpl3s"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_xpl3s")

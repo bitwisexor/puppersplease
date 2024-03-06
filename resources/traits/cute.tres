@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TraitResource" load_steps=2 format=3 uid="uid://ch41jpf4a77no"]
+
+[ext_resource type="Script" path="res://src/TraitResource.gd" id="1_2e4ef"]
+
+[resource]
+script = ExtResource("1_2e4ef")
+name = "Very cute"
+description = "This dog is insanely cute, I wanna crush it with a hydralic press!"
+size = 0
+age = 1
+athletic = 0
+friendly = 1
+smart = 0
+needs = 0
+appearance = 2
+conflicting_traits = Array[Resource]([])

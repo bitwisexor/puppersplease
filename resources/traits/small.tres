@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="TraitResource" load_steps=2 format=3 uid="uid://die3gwisfam6e"]
+
+[ext_resource type="Script" path="res://src/TraitResource.gd" id="1_talbt"]
+
+[resource]
+script = ExtResource("1_talbt")
+name = "Small"
+description = "Not a chonker. Don't care, didn't ask."
+size = -1
+age = 0
+athletic = 0
+friendly = 0
+smart = 0
+needs = 0
+appearance = 0
+conflicting_traits = Array[Resource]([])

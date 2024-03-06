@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="TraitExclusionResource" load_steps=2 format=3 uid="uid://274ncl316ch8"]
+
+[ext_resource type="Script" path="res://src/TraitExclusion.gd" id="1_67p86"]
+
+[resource]
+script = ExtResource("1_67p86")
+trait_a = "res://resources/traits/likes_to_run.tres"
+trait_b = "res://resources/traits/hates_to_run.tres"
