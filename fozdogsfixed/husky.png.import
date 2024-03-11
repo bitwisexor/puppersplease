@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmw60c6pgdmxg"
-path="res://.godot/imported/Dog3-ezgif.com-gif-to-sprite-converter.png-79b7d287909588011c2804deb32af9d3.ctex"
+uid="uid://dmbpv15vok5f0"
+path="res://.godot/imported/husky.png-b63bf8bd0bc0fdc5780cc9004c7ebc89.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://fozdogsfixed/Dog3-ezgif.com-gif-to-sprite-converter.png"
-dest_files=["res://.godot/imported/Dog3-ezgif.com-gif-to-sprite-converter.png-79b7d287909588011c2804deb32af9d3.ctex"]
+source_file="res://fozdogsfixed/husky.png"
+dest_files=["res://.godot/imported/husky.png-b63bf8bd0bc0fdc5780cc9004c7ebc89.ctex"]
 
 [params]
 

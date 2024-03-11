@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DogResource" load_steps=5 format=3 uid="uid://cohqacwcemmka"]
+
+[ext_resource type="Script" path="res://src/DogResource.gd" id="1_nk11b"]
+[ext_resource type="Resource" uid="uid://ch41jpf4a77no" path="res://resources/traits/cute.tres" id="2_l533m"]
+[ext_resource type="Resource" uid="uid://wivmh47rsnbv" path="res://resources/traits/good_swimmer.tres" id="3_cepee"]
+[ext_resource type="Resource" uid="uid://cqgbfo50hsh4p" path="res://resources/traits/likes_to_run.tres" id="4_ciy63"]
+
+[resource]
+script = ExtResource("1_nk11b")
+name = "Daschund"
+description = "Not gonna sugar coat it, this dog is fucking weird. It is an abomination of science. It needs to die."
+traits = Array[Resource("res://src/TraitResource.gd")]([ExtResource("2_l533m"), ExtResource("3_cepee"), ExtResource("4_ciy63")])

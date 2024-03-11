@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmw60c6pgdmxg"
-path="res://.godot/imported/Dog3-ezgif.com-gif-to-sprite-converter.png-79b7d287909588011c2804deb32af9d3.ctex"
+uid="uid://pjpaxdrtrivf"
+path="res://.godot/imported/Paw Spritesheet.png-56b86c21efd605d8c1f077ab7e5dd52f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://fozdogsfixed/Dog3-ezgif.com-gif-to-sprite-converter.png"
-dest_files=["res://.godot/imported/Dog3-ezgif.com-gif-to-sprite-converter.png-79b7d287909588011c2804deb32af9d3.ctex"]
+source_file="res://anim_assets/Paw Spritesheet.png"
+dest_files=["res://.godot/imported/Paw Spritesheet.png-56b86c21efd605d8c1f077ab7e5dd52f.ctex"]
 
 [params]
 

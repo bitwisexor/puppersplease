@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmw60c6pgdmxg"
-path="res://.godot/imported/Dog3-ezgif.com-gif-to-sprite-converter.png-79b7d287909588011c2804deb32af9d3.ctex"
+uid="uid://7c8wivwjtido"
+path="res://.godot/imported/chihuahua.png-93042d0193ac8efa7106c642e57a2deb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://fozdogsfixed/Dog3-ezgif.com-gif-to-sprite-converter.png"
-dest_files=["res://.godot/imported/Dog3-ezgif.com-gif-to-sprite-converter.png-79b7d287909588011c2804deb32af9d3.ctex"]
+source_file="res://fozdogsfixed/chihuahua.png"
+dest_files=["res://.godot/imported/chihuahua.png-93042d0193ac8efa7106c642e57a2deb.ctex"]
 
 [params]
 

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="TraitResource" load_steps=2 format=3 uid="uid://cmg8ayo603d6j"]
+
+[ext_resource type="Script" path="res://src/TraitResource.gd" id="1_8snea"]
+
+[resource]
+script = ExtResource("1_8snea")
+name = "Small"
+description = "Not a chonker. Don't care, didn't ask."
+size = -1
+age = 0
+athletic = 0
+friendly = 0
+smart = 0
+needs = 0
+appearance = 0

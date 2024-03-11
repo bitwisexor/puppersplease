@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="TraitResource" load_steps=2 format=3 uid="uid://dowb8ryjob5k1"]
+
+[ext_resource type="Script" path="res://src/TraitResource.gd" id="1_05u7d"]
+
+[resource]
+script = ExtResource("1_05u7d")
+name = "Very cute"
+description = "This dog is insanely cute, I wanna crush it with a hydralic press!"
+size = 0
+age = 1
+athletic = 0
+friendly = 1
+smart = 0
+needs = 0
+appearance = 2

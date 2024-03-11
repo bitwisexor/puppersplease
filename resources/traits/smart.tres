@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="TraitResource" load_steps=2 format=3 uid="uid://crtng6dvmkwiw"]
+
+[ext_resource type="Script" path="res://src/TraitResource.gd" id="1_l7tl1"]
+
+[resource]
+script = ExtResource("1_l7tl1")
+name = "Good swimmer"
+description = "This dog is really good at swimming. Like a fish!"
+size = 0
+age = 0
+athletic = 2
+friendly = 0
+smart = 1
+needs = 0
+appearance = 0
