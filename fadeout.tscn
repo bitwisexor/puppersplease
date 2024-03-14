@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bylnaf8rvs57g"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="CanvasModulate" type="CanvasModulate" parent="CanvasLayer"]
+color = Color(0, 0, 0, 1)

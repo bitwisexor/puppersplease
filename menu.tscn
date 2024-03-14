@@ -1,4 +1,4 @@
-[gd_scene load_steps=253 format=3 uid="uid://cwou75rs55c1v"]
+[gd_scene load_steps=254 format=3 uid="uid://cwou75rs55c1v"]
 
 [ext_resource type="Texture2D" uid="uid://8c1xbrl734eo" path="res://sprites/foztitle.png" id="1_pcuog"]
 [ext_resource type="Script" path="res://menu.gd" id="1_qqp0k"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://c60v0ppks7j6l" path="res://sprites/startimg.png" id="5_yivvk"]
 [ext_resource type="Texture2D" uid="uid://b354ha46p8wip" path="res://sprites/optionsimg.png" id="6_71ts1"]
 [ext_resource type="AudioStream" uid="uid://bpleddd7argjy" path="res://sounds/burning.wav" id="7_hawc2"]
+[ext_resource type="Script" path="res://addons/dialogue_manager/test_scene.gd" id="7_u1t51"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_ct28r"]
 
@@ -1740,7 +1741,7 @@ offset_bottom = 723.0
 texture = SubResource("CanvasTexture_l487h")
 
 [node name="wiggledog" type="AnimatedSprite2D" parent="pupperspleasemainmenu"]
-position = Vector2(640, 362.4)
+position = Vector2(644, 361)
 scale = Vector2(1.06667, 1.00167)
 sprite_frames = SubResource("SpriteFrames_82n8l")
 animation = &"mainmenu"
@@ -1799,6 +1800,9 @@ flat = true
 
 [node name="burning" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("7_hawc2")
+
+[node name="BaseDialogueTestScene" type="Node2D" parent="."]
+script = ExtResource("7_u1t51")
 
 [connection signal="pressed" from="VBoxContainer/optionssprite/optionsbutton" to="." method="_on_optionsbutton_pressed"]
 [connection signal="pressed" from="VBoxContainer/quitsprite/quitbutton" to="." method="_on_quitbutton_pressed"]

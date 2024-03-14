@@ -1,9 +1,9 @@
 [gd_scene load_steps=128 format=3 uid="uid://bc30qy3x2h6eh"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_8rp7r"]
-[ext_resource type="Texture2D" uid="uid://cx4xt1cllhdf5" path="res://fozdogsfixed/pixel_art_grass_by_bulwarken_dbg8qqd-fullview.jpg" id="1_82dmr"]
-[ext_resource type="Texture2D" uid="uid://dst3jppawpvkj" path="res://fozdogsfixed/Dog6-ezgif.com-gif-to-sprite-converter.png" id="2_6h0ls"]
-[ext_resource type="Texture2D" uid="uid://bcqgana2sx3de" path="res://fozdogsfixed/Dog3-ezgif.com-gif-to-sprite-converter.png" id="3_tvry6"]
+[ext_resource type="Texture2D" uid="uid://dc3q3h7ksfdkm" path="res://fozdogsfixed/pixel_art_grass_by_bulwarken_dbg8qqd-fullview.jpg" id="1_82dmr"]
+[ext_resource type="Texture2D" uid="uid://bwqtqgsxim1q2" path="res://fozdogsfixed/Dog6-ezgif.com-gif-to-sprite-converter.png" id="2_6h0ls"]
+[ext_resource type="Texture2D" uid="uid://bmw60c6pgdmxg" path="res://fozdogsfixed/Dog3-ezgif.com-gif-to-sprite-converter.png" id="3_tvry6"]
 [ext_resource type="Texture2D" uid="uid://ca0wv7wweif0o" path="res://bomb001.bmp" id="4_qwa24"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_874px"]
